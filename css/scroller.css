@@ -3,14 +3,65 @@ body {
 }
 
 nav {
-      width: 20%;
-      display: flex;
-      align-items: space-between;
-      list-style-type: none;
-      overflow: hidden;
       width: auto;
-      height: 760px;
-      margin-bottom: 60px;
-      margin-left: 20px;
+      height: 100%;
 
+}
+
+.scrollmenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style: none;
+  border: 5px solid black;
+  height: 100%;
+  max-width: 35%;
+  overflow: auto;
+
+}
+.scrollmenu li a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.scrollmenu li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.scrollmenu li a {
+  color: black;
+  display: block;
+  justify-content: center;
+  align-items: flex-start;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin-left: -40px;
+  height: 125px;
+  border-bottom: 1px solid black;
+}
+
+
+.scrollmenu .home_menu {
+  background-image: url('http://229immo.com/images/categories/maison-2.png?v=1484867424');
+  background-repeat: no-repeat;
+  background-size: 253px 150px;
+}
+
+.scrollmenu .news_menu  {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/48/Microsoft_Word_logo.png');
+  background-repeat: no-repeat;
+  background-size: 253px 150px;
+}
+
+.scrollmenu .contact_menu {
+  background-image: url('http://bc-plomberie.fr/wp-content/uploads/2015/10/bouton-contact.png');
+  background-repeat: no-repeat;
+  background-size: 253px 150px;
+}
+
+.scrollmenu .about_menu {
+  background-image: url('http://icons.iconarchive.com/icons/icons8/ios7/256/Very-Basic-About-icon.png');
+  background-repeat: no-repeat;
+  background-size: 253px 150px;
 }
