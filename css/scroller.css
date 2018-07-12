@@ -1,8 +1,16 @@
 body {
 
-      display: block;
-      width: 80px;
+}
+
+nav {
+      width: 20%;
       display: flex;
-      justify-content: space-between;
+      align-items: space-between;
+      list-style-type: none;
+      overflow: hidden;
+      width: auto;
+      height: 760px;
+      margin-bottom: 60px;
+      margin-left: 20px;
 
 }
