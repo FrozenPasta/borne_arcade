@@ -2,6 +2,11 @@ body{
 
 }
 
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
 .menufooter {
   display: flex;
   justify-content: space-between;
@@ -10,4 +15,5 @@ body{
   background-color: #aac4b7;
   align-items: center;
   height: 40px;
+  position: relative;
 }
